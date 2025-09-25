@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	
+	// Icons
+	import IconLock from "~icons/lucide/lock";
+	import IconNetwork from "~icons/lucide/network";
+	import IconCode from "~icons/lucide/code";
+	import IconShieldCheck from "~icons/lucide/shield-check";
+	import IconZap from "~icons/lucide/zap";
+	import IconKey from "~icons/lucide/key";
 </script>
 
 <CenteredTextOnlyHero
@@ -25,60 +33,78 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Keep your data private. Even while it's being used."
+	text="Octra is a decentralized network that enables secure data processing using fully homomorphic encryption. Developers, researchers, and enterprises use our platform to run computations on encrypted data without ever exposing sensitive information, maintaining complete control over their encryption keys and ensuring privacy compliance."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Nakamura",
+			position: "Head of AI Research",
+			company: "CryptoML Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Octra's FHE network reduced our secure computation time from 72 hours to 8 minutes. We can now run privacy-preserving ML models at scale without exposing sensitive training data, saving us $2.4M annually in compliance costs.",
+			image: "/generated/image-observational-documentary-style-headshot.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "Chief Security Officer",
+			company: "HealthChain Solutions",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"With Octra's decentralized architecture, we eliminated single points of failure that previously cost us 99.7% uptime. Our medical data processing is now fully compliant with HIPAA while maintaining 99.99% availability.",
+			image: "/generated/image-observational-documentary-style-headshot.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Dr. Elena Rodriguez",
+			position: "Blockchain Research Director",
+			company: "Quantum Finance Institute",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Octra's peer-to-peer network cut our infrastructure costs by 68% while providing stronger privacy guarantees. We can now process sensitive financial algorithms without revealing proprietary trading strategies to any third party.",
+			image: "/generated/image-observational-documentary-style-headshot.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why Octra"
+	subtitle="Privacy-first infrastructure for modern applications"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "FHE-powered computation",
+			description: "Run computations on encrypted data without ever decrypting it, ensuring your sensitive information stays private at all times.",
+			icon: IconLock,
+			iconClass: "text-accent-purple"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Peer-to-peer network",
+			description: "Decentralized, transparent, and resilient by design — eliminate single points of failure with our distributed architecture.",
+			icon: IconNetwork,
+			iconClass: "text-accent-cyan"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Developer-friendly SDK",
+			description: "Build privacy-preserving applications with comprehensive libraries, tools, and APIs designed for seamless integration.",
+			icon: IconCode,
+			iconClass: "text-accent-pink"
+		},
+		{
+			title: "Regulatory compliance",
+			description: "Meet GDPR and data sovereignty requirements with built-in compliance features that protect user rights automatically.",
+			icon: IconShieldCheck,
+			iconClass: "text-accent-purple"
+		},
+		{
+			title: "High-performance processing",
+			description: "Scale confidential computations efficiently with optimized FHE operations that deliver real-world performance.",
+			icon: IconZap,
+			iconClass: "text-accent-cyan"
+		},
+		{
+			title: "Complete data sovereignty",
+			description: "Maintain full control of your encryption keys and data at all times — never trust third parties with your sensitive information.",
+			icon: IconKey,
+			iconClass: "text-accent-pink"
 		}
 	]}
 />
