@@ -74,10 +74,10 @@
 			<div class="items-between grid h-full content-between gap-16">
 				<h2 class="text-title1 mb-3 flex flex-col">
 					<span><AnimateText text={title} /></span>
-					<span class="text-emphasis-low"><AnimateText text={subtitle} /></span>
+					<span class="text-muted-foreground"><AnimateText text={subtitle} /></span>
 				</h2>
 				<div class="flex flex-col items-start justify-start gap-7">
-					<p class="text-headline text-emphasis-low">
+					<p class="text-headline text-muted-foreground">
 						{description}
 					</p>
 					<div class="flex w-full flex-col gap-2 md:flex-row md:flex-wrap">

@@ -80,4 +80,21 @@
 	]}
 />
 <AboutTeaser />
-<CallToAction />
+<CallToAction 
+	title="Build the future of private computation"
+	subtitle="Get early access"
+	description="Get early access to Octra's tools and start building applications that prove privacy isn't optional—it's possible."
+	imageSrc="/generated/image-candid-documentary-style-photograph-of-a.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start building with Octra",
+			variant: "primary"
+		},
+		{
+			href: "/docs",
+			label: "Read the docs",
+			variant: "secondary"
+		}
+	]}
+/>
