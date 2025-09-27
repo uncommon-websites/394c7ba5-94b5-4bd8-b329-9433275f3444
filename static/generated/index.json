@@ -14,5 +14,21 @@
   {
     "prompt": "A diverse group of people collaborating intensely in a moody, underground workspace inspired by indie game studios—candid, documentary-style photograph. The scene features authentic, lived-in details: cluttered desks with creative tools, personal collectibles, and coffee cups. Lighting is cinematic chiaroscuro, with deep shadows and practical sources like desk lamps and strategic pops of electric blue from neon accents or clothing. Subjects are caught in genuine moments of discussion and focused creativity, framed off-center with dynamic angles and foreground elements adding depth. The environment suggests a converted warehouse or unconventional office, conveying an exclusive, insider atmosphere that blends gaming culture and edgy sophistication.",
     "filename": "/generated/image-a-diverse-group-of-people-collaborating-.webp"
+  },
+  {
+    "prompt": "Candid headshot of a tech researcher in a moody, converted warehouse lab, deep shadows and high-contrast lighting, pops of electric blue from LED strips, cluttered desk with personal collectibles, documentary-style, intense focus, authentic indie workspace vibe, off-center composition with environmental context, cinematic chiaroscuro, underground creative energy.",
+    "filename": "/generated/image-candid-headshot-of-a-tech-researcher-in-.webp"
+  },
+  {
+    "prompt": "Observational headshot of a cryptography expert in a modern, art-forward office, dramatic side-lighting with deep shadow, subtle neon blue accent from a desk lamp, lived-in workspace with coffee cups and gaming memorabilia, candid expression of focused concentration, creative chaos, off-center framing with architectural elements, moody and exclusive atmosphere.",
+    "filename": "/generated/image-observational-headshot-of-a-cryptography.webp"
+  },
+  {
+    "prompt": "Documentary-style headshot of a blockchain developer in a raw, unconventional tech workspace, atmospheric noir lighting with selective electric blue highlights in clothing or decor, cluttered desk with unique peripherals and indie art, genuine moment of breakthrough, off-center rule-of-thirds composition, immersive depth with foreground elements, authentic and exclusive creative environment.",
+    "filename": "/generated/image-documentary-style-headshot-of-a-blockcha.webp"
+  },
+  {
+    "prompt": "Candid, documentary-style photo of a professional developer deeply focused in a dimly lit, underground studio. The workspace is cluttered with creative tools, coffee cups, and personal collectibles, with dramatic side-lighting casting deep shadows. Subtle electric blue accents appear in the environment through LED strips or clothing. The developer is captured in a moment of intense concentration, surrounded by an authentic, lived-in atmosphere, blending monochromatic blacks and whites with strategic neon blue highlights. The composition uses dynamic angles and architectural elements to frame the scene, emphasizing the creative, exclusive energy of indie gaming culture.",
+    "filename": "/generated/image-candid-documentary-style-photo-of-a-prof.webp"
   }
 ]

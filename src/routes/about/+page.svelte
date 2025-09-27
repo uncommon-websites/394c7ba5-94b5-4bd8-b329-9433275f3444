@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Privacy first",
+			description: "Your data remains encrypted and under your control at all times, with FHE ensuring computation happens without exposing sensitive information."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Decentralized by design",
+			description: "Building peer-to-peer infrastructure that eliminates single points of failure and puts control back in the hands of users."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Developer empowerment",
+			description: "Providing the tools and libraries that make it simple to build privacy-preserving applications without compromising on functionality."
 		}
 	];
 </script>
@@ -33,71 +33,48 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Octra Labs began as a non-profit research initiative, driven by a fundamental belief that privacy shouldn't be a privilege. We saw the growing centralization of data and knew there had to be a better way.",
+		"Our breakthrough came through fully homomorphic encryption - the ability to perform computations on encrypted data without ever decrypting it. This isn't just academic research; it's the foundation for truly private, decentralized applications.",
+		"As a collective of researchers and developers, we're not building for profit margins or investor returns. We're building because the future of digital privacy depends on decentralized, peer-to-peer networks that put users in control.",
+		"Every protocol we develop, every tool we release, serves one purpose: enabling developers to build applications where privacy is built-in, not bolted-on. This is how we create a more secure digital world for everyone."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Research team."
+	subtitle="Advancing fully homomorphic encryption."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Dr. Elena Rodriguez",
+			position: "Lead Cryptographer",
+			bio: "PhD in Applied Cryptography, specializing in fully homomorphic encryption protocols and privacy-preserving computation.",
+			image: "/generated/image-candid-headshot-of-a-tech-researcher-in-.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Marcus Chen",
+			position: "Blockchain Architect",
+			bio: "Former core developer at Ethereum Foundation, focused on decentralized infrastructure and consensus mechanisms.",
+			image: "/generated/image-observational-headshot-of-a-cryptography.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Dr. Kai Nakamura",
+			position: "Research Director",
+			bio: "Published researcher in privacy-preserving AI and secure multi-party computation with 15+ years in cryptographic systems.",
+			image: "/generated/image-documentary-style-headshot-of-a-blockcha.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to build with privacy?"
+	subtitle="Start developing on Octra today"
+	description="Join the developers and enterprises already building the next generation of privacy-preserving applications with our FHE infrastructure and developer tools."
+	imageSrc="/generated/image-candid-documentary-style-photo-of-a-prof.webp"
 />
