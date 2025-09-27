@@ -1,5 +1,4 @@
-/* Do not modify this file, as it is generated. */
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 @import "./base.css";
 @import "./typography.css";
@@ -7,43 +6,90 @@
 @import "./theme.css";
 
 @theme {
-	/* Colors */
-	--color-gray-50: oklch(0.985 0.001 106.423);
-	--color-gray-100: oklch(0.97 0.001 106.424);
-	--color-gray-200: oklch(0.923 0.003 48.717);
-	--color-gray-300: oklch(0.869 0.005 56.366);
-	--color-gray-400: oklch(0.709 0.01 56.259);
-	--color-gray-500: oklch(0.553 0.013 58.071);
-	--color-gray-600: oklch(0.444 0.011 73.639);
-	--color-gray-700: oklch(0.374 0.01 67.558);
-	--color-gray-800: oklch(0.268 0.007 34.298);
-	--color-gray-900: oklch(0.216 0.006 56.043);
-	--color-gray-950: oklch(0.147 0.004 49.25);
+/* Octra Brand Colors - Modern-minimalist meets retro-playful */
+/* Primary Colors */
+--color-white: #FFFFFF;
+--color-black: #000000;
+--color-gray-50: #F2F2F2;
+--color-gray-100: #E5E5E5;
+--color-gray-200: #CCCCCC;
+--color-gray-300: #B3B3B3;
+--color-gray-400: #999999;
+--color-gray-500: #808080;
+--color-gray-600: #666666;
+--color-gray-700: #4D4D4D;
+--color-gray-800: #333333;
+--color-gray-900: #1A1A1A;
+--color-gray-950: #0D0D0D;
 
-	--color-primary-50: oklch(0.982 0.018 155.826);
-	--color-primary-100: oklch(0.962 0.044 156.743);
-	--color-primary-200: oklch(0.925 0.084 155.995);
-	--color-primary-300: oklch(0.871 0.15 154.449);
-	--color-primary-400: oklch(0.792 0.209 151.711);
-	--color-primary-500: oklch(0.723 0.219 149.579);
-	--color-primary-600: oklch(0.627 0.194 149.214);
-	--color-primary-700: oklch(0.527 0.154 150.069);
-	--color-primary-800: oklch(0.448 0.119 151.328);
-	--color-primary-900: oklch(0.393 0.095 152.535);
-	--color-primary-950: oklch(0.266 0.065 152.934);
+/* Accent Colors - Vibrant gradients for CTAs */
+--color-primary-50: #F0EDFF;
+--color-primary-100: #E6E0FF;
+--color-primary-200: #D1C7FF;
+--color-primary-300: #B8A9FF;
+--color-primary-400: #9B85FF;
+--color-primary-500: #7D5EFF;
+--color-primary-600: #5E45FF;
+--color-primary-700: #4C2EE6;
+--color-primary-800: #3A1FCC;
+--color-primary-900: #2B17B3;
+--color-primary-950: #1D0F99;
 
-	--color-secondary-50: oklch(97% 0.015 30);
-	--color-secondary-100: oklch(92% 0.02 30);
-	--color-secondary-200: oklch(86% 0.03 30);
-	--color-secondary-300: oklch(80% 0.04 30);
-	--color-secondary-400: oklch(74% 0.05 30);
-	--color-secondary-500: oklch(68% 0.06 30);
-	--color-secondary-600: oklch(60% 0.07 30);
-	--color-secondary-700: oklch(52% 0.08 30);
-	--color-secondary-800: oklch(40% 0.09 30);
-	--color-secondary-900: oklch(30% 0.1 30);
-	--color-secondary-950: oklch(20% 0.11 30);
+/* Secondary Colors - Pastel nostalgia */
+--color-secondary-50: #FFF5F7;
+--color-secondary-100: #FFE8ED;
+--color-secondary-200: #FFD1DC;
+--color-secondary-300: #FFB8CA;
+--color-secondary-400: #FF9FB8;
+--color-secondary-500: #FF86A6;
+--color-secondary-600: #E6638C;
+--color-secondary-700: #CC4073;
+--color-secondary-800: #B31D59;
+--color-secondary-900: #99003F;
+--color-secondary-950: #800033;
 
-	--font-body: var(--font-family), var(--font-fallback);
-	--font-display: var(--font-body);
+/* Mint accent for playful contrast */
+--color-mint-50: #F0FDFC;
+--color-mint-100: #E6FCF9;
+--color-mint-200: #B2F7EF;
+--color-mint-300: #7FF2E5;
+--color-mint-400: #4CEDDB;
+--color-mint-500: #26E2FF;
+--color-mint-600: #1FB8CC;
+--color-mint-700: #188F99;
+--color-mint-800: #116666;
+--color-mint-900: #0A3D33;
+
+/* Cream accent for warmth */
+--color-cream-50: #FFFCF7;
+--color-cream-100: #FFF9ED;
+--color-cream-200: #FFEDDB;
+--color-cream-300: #FFE1C9;
+--color-cream-400: #FFD5B7;
+--color-cream-500: #FFC9A5;
+--color-cream-600: #E6A582;
+--color-cream-700: #CC815F;
+--color-cream-800: #B35D3C;
+--color-cream-900: #993919;
+
+/* Typography - Poppins for headings, Roboto for body */
+--font-primary: "Poppins";
+--font-secondary: "Roboto";
+--font-fallback: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+--font-body: var(--font-secondary), var(--font-fallback);
+--font-display: var(--font-primary), var(--font-fallback);
+
+/* Spacing system - 8px base unit */
+--spacing-base: 8px;
+--spacing-xs: 4px;
+--spacing-sm: 8px;
+--spacing-md: 16px;
+--spacing-lg: 24px;
+--spacing-xl: 32px;
+--spacing-2xl: 48px;
+--spacing-3xl: 64px;
+
+/* Border radius - 8px for component consistency */
+--radius-component: 8px;
+--radius-small: 4px;
 }
