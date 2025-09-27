@@ -6,25 +6,30 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Keep your data yours. Always."
+	subtitle="Octra lets you store and process sensitive data without ever giving up control. Run computations without exposing the raw data—secure by design, powered by FHE."
+	imageSrc="/generated/image-documentary-style-photograph-of-an-indie.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by privacy-focused innovators" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/ethereum.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/polygon.technology/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/chainlink.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/uniswap.org/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -54,7 +59,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -75,5 +79,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
