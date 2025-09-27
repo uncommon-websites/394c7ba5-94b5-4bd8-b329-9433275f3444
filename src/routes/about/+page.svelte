@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Privacy at the core"
+	subtitle="Data stays yours. Always."
+	imageSrc="/generated/image-a-diverse-group-of-people-collaborating-.webp"
 />
 
 <!-- Story Section -->
