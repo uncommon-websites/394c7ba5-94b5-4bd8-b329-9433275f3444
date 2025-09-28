@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Private compute. Without compromise."
+	subtitle="Octra lets you store, share and process sensitive data without ever exposing it — not even to the network."
+	imageSrc="/generated/image-a-candid-documentary-style-photograph-of.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/chainlink.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/polygon.technology/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/avalabs.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/openai.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
