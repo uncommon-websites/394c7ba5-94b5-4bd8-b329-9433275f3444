@@ -109,4 +109,21 @@
 	]}
 />
 <AboutTeaser generating />
-<CallToAction generating />
+<CallToAction
+	title="Start building encrypted-first applications"
+	subtitle="Get early access"
+	description="Ready to process data without ever exposing it? Join forward-thinking developers who are building the future of privacy-preserving applications with Octra's FHE-powered network."
+	imageSrc="/generated/image-candid-documentary-style-photograph-of-a.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Get early access",
+			variant: "primary"
+		},
+		{
+			href: "/docs",
+			label: "Explore documentation",
+			variant: "secondary"
+		}
+	]}
+/>
